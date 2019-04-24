@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ok</title>
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/animate.css" />	
+	<script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+
+
+<script type="text/javascript">
+	function lert(){
+  alert("do not work right now")
+}
+</script>
+</head>
+<body>
+
+	<div class="container">
+			<ul id="gn-menu" class="gn-menu-main">
+				<li class="gn-trigger">
+					<a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+					<nav class="gn-menu-wrapper">
+						<div class="gn-scroller">
+							<ul class="gn-menu">
+								<li class="gn-search-item">
+									<input placeholder="Search" type="search" class="gn-search">
+									<a class="gn-icon gn-icon-search"><span>Live</span></a>
+								</li>
+								<li>
+									<a class="gn-icon gn-icon-download">Downloads</a>
+									<ul class="gn-submenu">
+										<li><a class="gn-icon gn-icon-illustrator" href="js/smrtgarder.apk" download>Smrt Garder App</a></li>
+										
+									</ul>
+								</li>
+								<li><a class="gn-icon gn-icon-cog" onclick="lert()">Settings</a></li>
+								<li><a class="gn-icon gn-icon-help" href="https://github.com/fireflightg/Smrtgarder">GitHub</a></li>
+								<li>
+									<a href="live.html"class="gn-icon gn-icon-archive">Live Stream</a>
+									
+								</li>
+							</ul>
+						</div><!-- /gn-scroller -->
+					</nav>
+				</li>
+
+				<li><a href="live.html">To Live Stream</a></li>
+				<li><a class="codrops-icon codrops-icon-prev" href="new.html"><span>Plant Status</span></a></li>
+				<img style="align-content: center; margin: auto; position: sticky; margin-left: 175px;" src="img/logo.png" width="40" height="55">
+				<li><a onclick="logout()"><span>log off</span></a></li>
+				
+				</ul>
+
+		<img src="http://underdon-chihuahua-1038.dataplicity.io/" alt="http://underdon-chihuahua-1038.dataplicity.io" class="shrinkToFit" width="549" height="412">
+					<script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyA2aOo7c2ZzWgFy_gp5LvUw89SuA5zPmJ0",
+    authDomain: "smrtgarder.firebaseapp.com",
+    databaseURL: "https://smrtgarder.firebaseio.com",
+    projectId: "smrtgarder",
+    storageBucket: "smrtgarder.appspot.com",
+    messagingSenderId: "883477882726"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="index.js"></script>
+					<script src="js/classie.js"></script>
+		<script src="js/gnmenu.js"></script>
+		<script>
+			new gnMenu( document.getElementById( 'gn-menu' ) );
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+	</body>
+</html>
